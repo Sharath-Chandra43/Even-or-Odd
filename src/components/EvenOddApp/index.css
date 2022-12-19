@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 32px;
+  border-radius: 15px;
+  max-height: 450px;
+  max-width: 450px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.description {
+  font-size: 26px;
+  color: #334155;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.button {
+  border-width: 0;
+  border-radius: 8px;
+  height: 33px;
+  width: 112px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 575px) {
+  .evenOddApp-container {
+    height: 330px;
+    width: 330px;
+    padding: 15px;
+  }
+}
